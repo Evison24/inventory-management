@@ -1,13 +1,10 @@
-import { useState } from "react";
-
 import "./App.css";
+import Dashboard from "./screens/Dashboard";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="flex justify-center w-full  bg-black tetx-white h-screen">
-      jkdshf
+    <div className="w-full">
+      <Dashboard />
     </div>
   );
 }
